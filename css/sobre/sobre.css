@@ -1,0 +1,42 @@
+.sobre h2 {
+  margin-bottom: 40px;
+}
+
+.sobre-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sobre-conteudo p {
+  margin-bottom: 20px;
+  max-width: 75ch;
+}
+
+.sobre-conteudo a {
+  padding: 16px 0;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.sobre-conteudo a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--cor-p3);
+  position: absolute;
+  margin-top: 4px;
+}
+
+@media (max-width: 800px) {
+  .sobre-conteudo {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .sobre-conteudo p {
+    margin-bottom: 12px;
+  }
+}

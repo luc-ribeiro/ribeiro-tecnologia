@@ -1,13 +1,81 @@
-.texto-grande {
-  font-family: 'Saira', sans-serif;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 1.125;
+.font-1-xxl {
+  font: 600 6.4rem/1.125 'Saira', sans-serif;
 }
 
-.texto-medio {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
+.font-1-xl {
+  font: 600 4.8rem/1.25 'Saira', sans-serif;
+}
+
+.font-1-l {
+  font: 600 3.2rem/1.25 'Saira', sans-serif;
+}
+
+.font-1-m {
+  font: 500 2.4rem/1.33 'Saira', sans-serif;
+}
+
+.font-1-s {
+  font: 500 1.8rem/1.33 'Saira', sans-serif;
+}
+
+.font-1-s-b,
+.font-1-s-bot {
+  font: 600 1.8rem/1.33 'Saira', sans-serif;
+}
+
+.font-1-xs {
+  font: 500 1.4rem/1.43 'Saira', sans-serif;
+}
+
+.font-1-s-bot {
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-2-l {
+  font: 400 2.4rem/1.5 'Roboto', sans-serif;
+}
+
+.font-2-l-b {
+  font: 500 2.4rem/1.5 'Roboto', sans-serif;
+}
+
+.font-2-s {
+  font: 400 1.8rem/1.78 'Roboto', sans-serif;
+}
+
+.font-2-s-b {
+  font: 500 1.8rem/1.33 'Roboto', sans-serif;
+}
+
+.font-2-xs {
+  font: 400 1.6rem/1.5 'Roboto', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .font-1-xxl {
+    font-size: 4.8rem;
+  }
+
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 3.2rem;
+  }
+
+  .font-1-xl,
+  .font-2-l {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-2-l {
+    font-size: 1.8rem;
+  }
 }
