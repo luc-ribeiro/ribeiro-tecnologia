@@ -1,3 +1,7 @@
+.sobre {
+  margin-bottom: 120px;
+}
+
 .sobre h2 {
   margin-bottom: 40px;
 }
@@ -31,6 +35,14 @@
 }
 
 @media (max-width: 800px) {
+  .sobre {
+    margin-bottom: 60px;
+  }
+
+  .sobre h2 {
+    margin-bottom: 40px;
+  }
+
   .sobre-conteudo {
     grid-template-columns: 1fr;
     gap: 32px;

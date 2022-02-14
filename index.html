@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Ribeiro Tecnologia - Assistência Técnica em Rio Preto</title>
     <meta
       name="description"
       content="Assistência técnica em São José do Rio Preto especializada em reparos de qualidade em celulares, tablets, notebooks e computadores."
     />
+
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,10 +23,15 @@
   </head>
   <body>
     <div class="background">
-      <header class="header-bg">
-        <div class="header">
+      <header>
+        <div class="header container">
           <a href="./">
-            <img src="./img/ribeirotecnologia.svg" alt="Ribeiro Tecnologia" />
+            <img
+              src="./img/ribeirotecnologia.svg"
+              width="155"
+              height="60"
+              alt="Ribeiro Tecnologia"
+            />
           </a>
 
           <nav aria-label="primaria">
@@ -46,13 +54,32 @@
             </p>
             <a class="botao" href="./contato.html">Pedir Orçamento</a>
           </div>
-          <picture class="introducao-imagem">
-            <img src="./img/intro1.jpg" alt="Celular desmontado." />
-            <img
-              src="./img/intro2.jpg"
-              alt="Celular desmontado sendo consertado por um técnico"
-            />
-          </picture>
+          <div class="introducao-imagem">
+            <picture>
+              <source
+                media="(max-width: 800px)"
+                srcset="./img/fotos/home/intro1-mobile.jpg"
+              />
+              <img
+                src="./img/fotos/home/intro1.jpg"
+                width="1400"
+                height="858"
+                alt="Celular desmontado."
+              />
+            </picture>
+            <picture>
+              <source
+                media="(max-width: 800px)"
+                srcset="./img/fotos/home/intro2-mobile.jpg"
+              />
+              <img
+                src="./img/fotos/home/intro2.jpg"
+                width="396"
+                height="272"
+                alt="Celular desmontado."
+              />
+            </picture>
+          </div>
         </div>
       </main>
     </div>
@@ -63,7 +90,9 @@
       <div class="sobre-conteudo">
         <div>
           <img
-            src="./img/loja.jpg"
+            src="./img/fotos/home/loja.jpg"
+            width="1120"
+            height="1050"
             alt="Foto da fachada da Ribeiro Tecnologia."
           />
         </div>
@@ -89,6 +118,12 @@
           <a class="font-1-m cor-p3" href="sobre.html">Saiba Mais</a>
         </div>
       </div>
+    </article>
+
+    <article class="reparos container">
+      <h2 class="font-1-xxl cor-11">
+        O que podemos <span class="cor-p2">reparar</span> para você?
+      </h2>
     </article>
   </body>
 </html>
