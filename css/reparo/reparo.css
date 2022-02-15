@@ -1,3 +1,75 @@
+.reparos {
+  margin-bottom: 120px;
+}
+
 .reparos h2 {
   text-align: center;
+  margin-bottom: 60px;
+}
+
+.reparos-conteudo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+
+  margin-bottom: 40px;
+}
+
+.reparos-item {
+  display: grid;
+  gap: 16px;
+  align-self: start;
+}
+
+.reparos h3 {
+  text-align: center;
+}
+
+.reparos li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.reparos-conteudo::after {
+  content: '';
+  display: block;
+  background: var(--cor-2);
+  height: 2px;
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+.reparos-cta {
+  text-align: center;
+}
+
+.reparos-cta p {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  .reparos-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .reparos-item {
+    place-self: center;
+    gap: 20px;
+  }
+
+  .reparos h3 {
+    margin-bottom: 16px;
+  }
+
+  .reparos ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+  }
+
+  .reparos li {
+    align-items: start;
+  }
 }

@@ -24,6 +24,24 @@
   background: linear-gradient(#113896, #061040);
 }
 
+.botao-secundario {
+  font: 600 1.8rem/1.33 'Saira', sans-serif;
+
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#345ec2, #113896);
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #d2dcf4;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.botao-secundario:hover {
+  background: linear-gradient(#113896, #061040);
+}
+
 @media (max-width: 600px) {
   .botao {
     padding: 12px 16px;

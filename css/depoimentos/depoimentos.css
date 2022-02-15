@@ -1,0 +1,33 @@
+.depoimentos-bg {
+  background: linear-gradient(121.91deg, #345ec2 5.33%, #113896 93.8%);
+}
+
+.depoimentos {
+  padding: 60px 0;
+}
+
+.depoimentos header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.depoimentos ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.depoimento-conteudo {
+  background: var(--cor-0);
+  padding: 20px 32px;
+  border-radius: 4px;
+  max-width: 300px;
+}
+
+.depoimento-conteudo p::before {
+  content: '“';
+  display: inline-block;
+  font-size: 2.4rem;
+  color: var(--cor-p2);
+}
