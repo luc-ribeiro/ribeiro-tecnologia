@@ -22,7 +22,11 @@
   background: var(--cor-0);
   padding: 20px 32px;
   border-radius: 4px;
-  max-width: 300px;
+  max-width: 75ch;
+}
+
+.depoimento-conteudo p {
+  margin-bottom: 8px;
 }
 
 .depoimento-conteudo p::before {
@@ -30,4 +34,14 @@
   display: inline-block;
   font-size: 2.4rem;
   color: var(--cor-p2);
+}
+
+.depoimento-conteudo img {
+  border-radius: 50%;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
