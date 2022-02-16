@@ -1,0 +1,30 @@
+.header-bg.paginas {
+  background-color: var(--cor-p4);
+}
+
+.header-menu.paginas a::after {
+  background: var(--cor-0);
+}
+
+.header-menu.paginas a.ativo::after {
+  width: 100%;
+}
+
+.titulo {
+  padding: 60px 0;
+  margin-bottom: 120px;
+  background: linear-gradient(121.91deg, #345ec2 5.33%, #113896 93.8%);
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .header-menu.paginas a.ativo {
+    background: var(--cor-0);
+    color: var(--cor-p2);
+  }
+
+  .titulo {
+    margin-bottom: 60px;
+    padding: 40px 0;
+  }
+}

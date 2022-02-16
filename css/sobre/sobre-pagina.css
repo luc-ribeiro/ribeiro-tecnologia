@@ -1,0 +1,23 @@
+.sobre h2 {
+  margin-bottom: 36px;
+}
+
+.sobre-conteudo {
+  margin-bottom: 80px;
+}
+
+.sobre-imagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 800px) {
+  .texto {
+    order: 2;
+  }
+
+  .sobre-imagens {
+    grid-template-columns: 1fr;
+  }
+}

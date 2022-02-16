@@ -3,11 +3,21 @@
 @import './utilidades/cores.css';
 
 @import './global/header.css';
+@import './global/header-pages.css';
+@import './global/footer.css';
 
+/* Utilidades */
 @import './utilidades/componentes.css';
 
+/* Home */
 @import './home/introducao.css';
+
+/* Sobre */
 @import './sobre/sobre.css';
-@import './reparo/reparo.css';
+@import './sobre/sobre-pagina.css';
 @import './depoimentos/depoimentos.css';
-@import './global/footer.css';
+
+/* Serviços */
+@import './servicos/servicos.css';
+@import './servicos/servicos-pagina.css';
+@import './servicos/perguntas.css';

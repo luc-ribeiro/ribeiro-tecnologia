@@ -1,0 +1,41 @@
+.diferenciais-bg {
+  background: linear-gradient(121.91deg, #345ec2 5.33%, #113896 93.8%);
+}
+
+.diferenciais {
+  padding: 120px 0;
+}
+
+.diferenciais header {
+  margin-bottom: 72px;
+}
+
+.diferenciais ul {
+  display: flex;
+
+  gap: 40px;
+}
+
+.diferenciais-conteudo {
+  background: var(--cor-0);
+  padding: 24px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.diferenciais-conteudo p {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .diferenciais ul {
+    flex-wrap: wrap;
+  }
+}
