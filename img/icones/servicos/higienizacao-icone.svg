@@ -1,9 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16 11H15V4C15 2.34 13.66 1 12 1C10.34 1 9 2.34 9 4V11H8C5.24 11 3 13.24 3 16V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V16C21 13.24 18.76 11 16 11ZM19 21H17V18C17 17.45 16.55 17 16 17C15.45 17 15 17.45 15 18V21H13V18C13 17.45 12.55 17 12 17C11.45 17 11 17.45 11 18V21H9V18C9 17.45 8.55 17 8 17C7.45 17 7 17.45 7 18V21H5V16C5 14.35 6.35 13 8 13H16C17.65 13 19 14.35 19 16V21Z" fill="url(#paint0_linear_434_250)"/>
-<defs>
-<linearGradient id="paint0_linear_434_250" x1="12" y1="1.44" x2="17.5365" y2="20.9923" gradientUnits="userSpaceOnUse">
-<stop stop-color="#345EC2"/>
-<stop offset="1" stop-color="#113896"/>
-</linearGradient>
-</defs>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 11h-1V4c0-1.66-1.34-3-3-3S9 2.34 9 4v7H8c-2.76 0-5 2.24-5 5v5c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5c0-2.76-2.24-5-5-5Zm3 10h-2v-3c0-.55-.45-1-1-1s-1 .45-1 1v3h-2v-3c0-.55-.45-1-1-1s-1 .45-1 1v3H9v-3c0-.55-.45-1-1-1s-1 .45-1 1v3H5v-5c0-1.65 1.35-3 3-3h8c1.65 0 3 1.35 3 3v5Z" fill="url(#a)"/><defs><linearGradient id="a" x1="12" y1="1.44" x2="17.537" y2="20.992" gradientUnits="userSpaceOnUse"><stop stop-color="#345EC2"/><stop offset="1" stop-color="#113896"/></linearGradient></defs></svg>
