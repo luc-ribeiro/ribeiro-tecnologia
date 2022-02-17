@@ -1,0 +1,94 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 240px;
+  margin-bottom: 120px;
+}
+
+.contato-cta h2 {
+  margin-bottom: 16px;
+}
+
+.contato-cta p {
+  margin-bottom: 32px;
+}
+
+.contato-cta a {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.contato-endereco,
+.contato-horario,
+.contato-telefones {
+  margin-bottom: 24px;
+  padding-left: 40px;
+}
+
+.contato-endereco {
+  background: url('../../img/icones/contato/mapa-icone.svg') no-repeat 0px 16px;
+}
+
+.contato-horario {
+  background: url('../../img/icones/contato/horario-icone.svg') no-repeat 0px
+    16px;
+}
+
+.contato-telefones {
+  background: url('../../img/icones/contato/telefone-icone.svg') no-repeat 0px
+    16px;
+}
+
+.contato-email {
+  margin-bottom: 28px;
+  padding-left: 45px;
+  background: url('../../img/icones/contato/email-icone.svg') no-repeat 0px 4px;
+}
+
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.mapa {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .contato-cta {
+    text-align: center;
+  }
+
+  .contato-cta a {
+    margin: auto;
+  }
+
+  .contato-email {
+    background-position: 0px -4px;
+  }
+
+  .mapa {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato-cta a {
+    max-width: initial;
+  }
+}

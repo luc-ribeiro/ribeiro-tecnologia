@@ -38,4 +38,8 @@
   .diferenciais ul {
     flex-wrap: wrap;
   }
+
+  .diferenciais-conteudo p {
+    max-width: 20ch;
+  }
 }

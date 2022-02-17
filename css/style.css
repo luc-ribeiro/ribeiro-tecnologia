@@ -21,3 +21,6 @@
 @import './servicos/servicos.css';
 @import './servicos/servicos-pagina.css';
 @import './servicos/perguntas.css';
+
+/* Contato */
+@import './contato/contato.css';
