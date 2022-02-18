@@ -12,6 +12,10 @@
     />
 
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="preload" href="./css/style.min.css" as="style" />
     <link rel="stylesheet" href="./css/style.min.css" />
 
@@ -21,10 +25,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Saira:wght@500;600&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
   </head>
   <body>
     <div class="background">
-      <header>
+      <header class="fadeInDown" data-anime="200">
         <div class="header container">
           <a href="./">
             <img
@@ -48,13 +56,16 @@
       <main class="introducao-bg cor-0">
         <div class="introducao container">
           <div class="introducao-conteudo">
-            <h1 class="font-1-xxl">Assistência técnica especializada.</h1>
-            <p class="font-2-l cor-4">
+            <h1 data-anime="400" class="font-1-xxl fadeInLeft">
+              Assistência técnica especializada.
+            </h1>
+            <p data-anime="600" class="font-2-l cor-4 fadeInLeft">
               Reparos de alta qualidade em celulares, tablets, notebooks e
               desktops.
             </p>
             <a
-              class="botao"
+              class="botao fadeInLeft"
+              data-anime="700"
               target="_blank"
               href="https://api.whatsapp.com/send?phone=5517997879022&text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento!"
               >Pedir Orçamento</a
@@ -70,6 +81,8 @@
                 src="./img/fotos/home/intro1.jpg"
                 width="1400"
                 height="858"
+                data-anime="350"
+                class="fadeInRight"
                 alt="Celular desmontado."
               />
             </picture>
@@ -82,6 +95,8 @@
                 src="./img/fotos/home/intro2.jpg"
                 width="396"
                 height="272"
+                data-anime="800"
+                class="fadeInUp"
                 alt="Celular desmontado."
               />
             </picture>
@@ -90,7 +105,7 @@
       </main>
     </div>
 
-    <article class="sobre container">
+    <article data-anime="1000" class="sobre container fadeInDown">
       <h2 class="font-1-xxl"><span class="cor-p2">Sobre</span> nós.</h2>
 
       <div class="sobre-conteudo">
@@ -436,69 +451,86 @@
       <div class="depoimentos container">
         <header>
           <h2 class="font-1-xl cor-0">Depoimentos.</h2>
-          <p class="font-2-l cor-3">O que nossos clientes dizem sobre nós.</p>
+          <p class="font-2-l cor-5">O que nossos clientes dizem sobre nós.</p>
         </header>
 
-        <ul class="container">
-          <li class="depoimento-conteudo">
-            <blockquote>
-              <p class="font-2-xs cor-9">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse sagittis arcu quis nisi luctus,
-              </p>
-              <div class="autor">
-                <img
-                  src="./img/avatares/avatar1.jpg"
-                  width="32"
-                  height="32"
-                  alt=""
-                />
-                <span class="font-1-xs cor-7">Lucas Ribeiro</span>
-              </div>
-            </blockquote>
-          </li>
+        <div class="swiper mySwiper">
+          <div class="depoimentos-container swiper-wrapper">
+            <div class="depoimento swiper-slide">
+              <blockquote>
+                <p class="font-2-xs cor-9">
+                  Profissionais dispostos a explicar a solução de forma
+                  objetiva; ambiente agradável e aconchegante; preço competitivo
+                  e serviço eficaz. Recomendo.
+                </p>
+                <div class="autor">
+                  <img
+                    src="./img/avatares/avatar4.jpg"
+                    width="32"
+                    height="32"
+                    alt=""
+                  />
+                  <span class="font-1-xs cor-7"> Henrique de Oliveira </span>
+                </div>
+              </blockquote>
+            </div>
 
-          <li class="depoimento-conteudo">
-            <blockquote>
-              <p class="font-2-xs cor-9">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse sagittis arcu quis nisi luctus,
-              </p>
-              <div class="autor">
-                <img
-                  src="./img/avatares/avatar1.jpg"
-                  width="32"
-                  height="32"
-                  alt=""
-                />
-                <span class="font-1-xs cor-7">Lucas Ribeiro</span>
-              </div>
-            </blockquote>
-          </li>
+            <div class="depoimento swiper-slide">
+              <blockquote>
+                <p class="font-2-xs cor-9">
+                  Ótimos profissionais! atendimento perfeito e super eficiente,
+                  recomendo!
+                </p>
+                <div class="autor">
+                  <img
+                    src="./img/avatares/avatar3.jpg"
+                    width="32"
+                    height="32"
+                    alt=""
+                  />
+                  <span class="font-1-xs cor-7"> Nathalia Ribeiro </span>
+                </div>
+              </blockquote>
+            </div>
 
-          <li class="depoimento-conteudo">
-            <blockquote>
-              <p class="font-2-xs cor-9">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse sagittis arcu quis nisi luctus,
-              </p>
-              <div class="autor">
-                <img
-                  src="./img/avatares/avatar1.jpg"
-                  width="32"
-                  height="32"
-                  alt=""
-                />
-                <span class="font-1-xs cor-7">Lucas Ribeiro</span>
-              </div>
-            </blockquote>
-          </li>
-        </ul>
+            <div class="depoimento swiper-slide">
+              <blockquote>
+                <p class="font-2-xs cor-9">
+                  Ótimo serviço e profissionais cuidadosos e bem preparados.
+                  Recomendo!
+                </p>
+                <div class="autor">
+                  <img
+                    src="./img/avatares/avatar2.jpg"
+                    width="32"
+                    height="32"
+                    alt=""
+                  />
+                  <span class="font-1-xs cor-7"> Jaqueline Romanholo </span>
+                </div>
+              </blockquote>
+            </div>
 
-        <div class="navegacao">
-          <span class="bullet active"></span>
-          <span class="bullet"></span>
-          <span class="bullet"></span>
+            <div class="depoimento swiper-slide">
+              <blockquote>
+                <p class="font-2-xs cor-9">
+                  Sou cliente da Ribeiro há 3 anos, sempre me atendem muito bem
+                  e resolvem meus problemas.
+                </p>
+                <div class="autor">
+                  <img
+                    src="./img/avatares/avatar.jpg"
+                    width="32"
+                    height="32"
+                    alt=""
+                  />
+                  <span class="font-1-xs cor-7"> Lucas Siviero </span>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -563,12 +595,19 @@
           <p>Ribeiro Tecnologia © Todos os direitos reservados.</p>
           <p>
             Desenvolvido por
-            <a class="font-2-s-b" href="https://github.com/luc-ribeiro"
+            <a
+              target="_blank"
+              class="font-2-s-b"
+              href="https://github.com/luc-ribeiro"
               >Lucas Ribeiro</a
             >
           </p>
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

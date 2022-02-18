@@ -18,10 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Saira:wght@500;600&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
   </head>
   <body>
     <header class="header-bg paginas">
-      <div class="header paginas container">
+      <div data-anime="400" class="header paginas container fadeInDown">
         <a href="./">
           <img
             src="./img/ribeirotecnologia.svg"
@@ -42,14 +46,14 @@
 
       <div class="titulo">
         <div>
-          <h1 class="font-1-xxl cor-1">
+          <h1 data-anime="800" class="font-1-xxl cor-1 fadeInDown">
             Serviços<span class="cor-p4">.</span>
           </h1>
         </div>
       </div>
     </header>
 
-    <article class="reparos container">
+    <article data-anime="1000" class="reparos container fadeInDown">
       <h2 class="font-1-xxl cor-11">
         O que podemos <span class="cor-p2">reparar</span> para você?
       </h2>
@@ -553,12 +557,18 @@
           <p>Ribeiro Tecnologia © Todos os direitos reservados.</p>
           <p>
             Desenvolvido por
-            <a class="font-2-s-b" href="https://github.com/luc-ribeiro"
+            <a
+              target="_blank"
+              class="font-2-s-b"
+              href="https://github.com/luc-ribeiro"
               >Lucas Ribeiro</a
             >
           </p>
         </div>
       </div>
     </footer>
+
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

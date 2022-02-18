@@ -3,7 +3,7 @@
 }
 
 .depoimentos {
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .depoimentos header {
@@ -11,34 +11,34 @@
   margin-bottom: 56px;
 }
 
-.depoimentos ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  position: relative;
+.depoimentos-container,
+.depoimento p {
   margin-bottom: 12px;
 }
 
-.depoimento-conteudo {
+.depoimento {
   background: var(--cor-0);
   padding: 20px 32px;
   border-radius: 4px;
+  margin-bottom: 30px;
   max-width: 75ch;
 }
 
-.depoimento-conteudo p {
-  margin-bottom: 8px;
+.depoimento blockquote {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.depoimento-conteudo p::before {
+.depoimento p::before {
   content: '“';
   display: inline-block;
   font-size: 2.4rem;
   color: var(--cor-p2);
 }
 
-.depoimento-conteudo img {
+.depoimento img {
   border-radius: 50%;
 }
 
@@ -48,30 +48,12 @@
   gap: 20px;
 }
 
-.navegacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+/* Swiper */
+
+.js .swiper-pagination-bullet {
+  background-color: var(--cor-0);
 }
 
-.bullet {
-  width: 8px;
-  height: 8px;
-  background: var(--cor-p5);
-  border-radius: 50%;
-  display: block;
-}
-
-.bullet.active {
-  background: var(--cor-1);
-}
-
-@media (max-width: 800px) {
-  .depoimentos ul {
-    flex-wrap: wrap;
-  }
-  .depoimentos li:not(:nth-child(1)) {
-    display: none;
-  }
+.js .swiper-pagination-bullet-active {
+  background-color: var(--cor-p3);
 }
