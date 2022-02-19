@@ -24,22 +24,24 @@ if (window.SimpleAnime) {
 
 // Depoimentos
 
-const swiper = new Swiper('.mySwiper', {
-  slidesPerView: 1,
-  spaceBetween: 24,
-  grabCursor: true,
-  mousewheel: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
+if (window.Swiper) {
+  const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    grabCursor: true,
+    mousewheel: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
     },
-    1200: {
-      slidesPerView: 3,
-      spaceBetween: 40,
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
     },
-  },
-})
+  })
+}
