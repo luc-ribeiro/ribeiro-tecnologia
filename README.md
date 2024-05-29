@@ -1,19 +1,26 @@
-<h1 align="center">
-Ribeiro Tecnologia
-<br>
+<div align="center">
+ <img src="./img/ribeirotecnologia.svg" />
+</div>
+
 <br>
 
-  ![Ribeirotecnologia](https://github.com/luc-ribeiro/ribeiro-tecnologia/blob/master/img/ribeirotecnologia.svg)
-</h1>
+<div align="right">
+  Clique <a href="https://github.com/luc-ribeiro/ribeiro-tecnologia/blob/master/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
+
 <br>
 
 ## 💻 Projeto
-Este site foi criado para a empresa Ribeiro Tecnologia, uma assistência técnica localizada em São José do Rio Preto, São Paulo.
+Website created for Ribeiro Tecnologia, a technical assistance located in São José do Rio Preto, São Paulo.
 
-Com o objetivo de divulgar a assistência técnica, foi realizado um briefing com o proprietário, o design da interface e 
-passado para o código com o propósito de atrair novos clientes e criar uma presença digital para a empresa.
+With the goal of promoting the technical assistance, a briefing was conducted with the owner, the interface design was created, 
+and then passed to code with the purpose of attracting new clients and creating a digital presence for the company.
 
-## 🚀 Tecnologias
+## Preview
+
+<a href="https://ribeirotecnologia.com.br" target="_blank">Live Preview</a>
+
+## 🚀 Technologies
 
 <div style="display: inline_block">
 	<img align="center" alt="Luc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
