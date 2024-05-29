@@ -1,9 +1,8 @@
-<h1 align="center">
-  Ribeiro Tecnologia
-<br> 
-<br> 
+<div align="center">
  <img src="./img/ribeirotecnologia.svg" />
-</h1>
+</div>
+
+<br>
 
 <div align="right">
   Click <a href="https://github.com/luc-ribeiro/ribeiro-tecnologia/blob/master/README.md">here</a> to view the english version.
